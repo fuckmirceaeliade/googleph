@@ -1,0 +1,264 @@
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Product Sans'), local('ProductSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2'); 
+}
+
+body {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #fff;
+  }
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 28.1rem;
+    padding: 3.5rem;
+    padding-bottom: 5.5rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+
+}
+
+.box h2 {
+    margin: 0px 0 -0.125rem;
+    padding: 0;
+    text-align: center;
+    color: #202124;
+    font-weight: 400;
+}
+
+.box .logo 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 16px;
+
+}
+
+
+.box p {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.box .inputBox {
+    position: relative;
+    left: -16px
+  }
+.box .inputBox input {
+    width: 89%;
+    padding: 1.1rem 1px;
+   letter-spacing: 0.062rem;
+   margin-bottom: 1.875rem;
+   border: 1px solid #dadce0;
+   background: transparent;
+   border-radius: 4px;
+   padding-right: 1rem; !important
+}
+
+.box .inputBox label {
+    position: absolute;
+    top: 7.5px;
+    left: 15px;
+    padding: 0.625rem 0;
+    font-size: 1rem;
+    color: #6a6e73;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+    top: -1.125rem;
+    color: #1a73e8;
+    font-size: 0.75rem;
+    background-color: #fff;
+    height: 10px;
+    position: absolute;
+    left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+.box .inputBox input {
+    font-family: 'Roboto';
+    font-size: 1rem;
+    outline: none;
+    padding-left: 15px;
+    letter-spacing: 0rem;
+}
+
+
+
+.box .inputBox input:focus {
+    outline: none;
+    padding-left: 15px;
+    border: 2px solid #1a73e8;
+}
+
+.logo {
+  padding-left: 35%;
+}
+
+#submit {
+    position: relative;
+    right: 25px;
+    top: 25px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #1a73e8;
+    padding: 0.725rem 1.55rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    float: right;
+  }
+
+  #submit:hover {
+    background-color: #1b66c9;
+    box-shadow: 0 1px 1px 0 , 0 1px 3px 1px;
+  }
+ 
+#gogle {
+    font-family: 'Roboto';
+    position: relative;
+    left: -20px;
+    padding-bottom: 10px;
+    letter-spacing: 0rem; !important
+  } 
+
+.misc {
+  position: relative;
+  padding-top: 2rem;
+}
+
+.misc * {
+  background-color: #fff;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #44484a;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  left: 38.14%;
+  top: 46.8rem;
+  padding-left: 23px;
+}
+
+ 
+#arrow {
+  position: relative;
+  width: 0.5%;
+  padding-left: 6%;
+}
+
+#ro {
+  position: relative;
+  font-family:'Roboto';
+  font-size: 0.75rem;
+  top: 47.8rem;
+  left: 38.41%
+}
+
+#help {
+  position: relative;
+  padding-left: 3.9px;
+}
+
+#confid {
+  position: relative;
+}
+
+#terms {
+  position: relative;
+}
+
+.gogle1 {
+  position: relative;
+  left: -20px;
+  letter-spacing: 0.005rem;
+}
+
+
+  #private {
+    bottom: 31%;
+    font-family: 'Roboto';
+    color: #666a6f;
+    position: absolute;
+    left: 40px; 
+    font-size: 0.9rem;  
+  }
+
+
+  #privateform {
+    position: relative;
+    left: -20px;
+    border: none;
+    outline: none;
+    color: #1a73e8;
+    background-color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    float: left;
+    font-size: 0.9rem;
+    top: 10px;
+  }
+
+  #create {
+    border: none;
+    position: relative;
+    left: -16px;
+    outline: none;
+    color: #1a73e8;
+    top: 2.5rem;
+    cursor: pointer;
+    border-radius: 0.312rem;
+    font-size: 0.9rem;
+    font-family: 'Roboto';
+    font-weight: 500;
+    top: 53px;
+    background-color: #fff; !important
+}
+
+#create:hover {
+    width: 36%;
+  }
+
+.box #forgot {
+    font-family: 'Roboto';
+    position: relative;
+    left: -21px;
+    top: -21px;
+    padding-bottom: 1rem;
+    border: none;
+    outline: none;
+    color: #1a73e8;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 0.312rem;
+  }
+
